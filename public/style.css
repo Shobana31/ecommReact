@@ -1,0 +1,80 @@
+
+
+#contact, #about {
+    /* height: 50px; */
+    margin-top: 124px;
+    margin-bottom: 2rem;
+    background-color: whitesmoke;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: left;
+    /* display:block */
+}
+
+
+
+/* footer{
+    background-color:dimgrey;
+} */
+
+body{
+    background-color: lightgray;
+}
+
+.banner {
+    background-image: url(./imgs/banner.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-top: 97px;
+
+    h1 {
+        text-align: center;
+        margin-top: 24px;
+
+        .banner-text {
+            color: #d4367f;
+        }
+    }
+}
+
+.nav-link, .login {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.nav-item-menu, .login-menu {
+    margin-left: -2px;
+}
+
+.navbar-text a {
+    color: #575757;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    
+}
+.btn .btn-primary{
+    align-items: center;
+}
+
+.spacer{
+    height: 5px;
+    width: 100%;
+    background-color: #d4367f;
+    margin-top: 97px;
+    display: block;
+}
